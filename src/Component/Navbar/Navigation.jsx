@@ -11,7 +11,7 @@ const Navigation = () => {
         onClick={() => {
           navigate(-1);
         }}
-        className="rounded-full w-10 h-10 transition flex items-center justify-center bg-black bg-opacity-75  text-white"
+        className="rounded-full w-8 h-8 transition flex items-center justify-center bg-black bg-opacity-75  text-white"
       >
         <AiOutlineLeft size={20} />
       </button>
@@ -19,7 +19,7 @@ const Navigation = () => {
         onClick={() => {
           navigate(+1);
         }}
-        className="rounded-full w-10 h-10 transition flex items-center justify-center bg-black bg-opacity-75  text-white"
+        className="rounded-full w-8 h-8 transition flex items-center justify-center bg-black bg-opacity-75 text-white"
       >
         <AiOutlineRight size={20} />
       </button>

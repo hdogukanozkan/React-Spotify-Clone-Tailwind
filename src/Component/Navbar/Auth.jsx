@@ -8,7 +8,7 @@ const data = {
 
 const Auth = () => {
   return (
-    <Menu as="div" className={"relative"}>
+    <Menu as="div" className={"relative z-10"}>
       <Menu.Button className="flex justify-between items-center gap-2 bg-black bg-opacity-75 rounded-full h-8 pr-2 hover:bg-active">
         <img
           src={data.imgUrl}
@@ -22,7 +22,7 @@ const Auth = () => {
       </Menu.Button>
       <Menu.Items
         className={
-          "p-1 right-0 absolute top-full translate-y-2 w-48 bg-active rounded-sm"
+          "p-1 right-0 absolute top-full translate-y-2 w-48 bg-active shadow-2xl font-semibold shadow-black rounded-sm"
         }
       >
         <Menu.Item>

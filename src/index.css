@@ -14,4 +14,24 @@
   .wrapper {
     height: calc(100% - theme("spacing.24"));
   }
+  .playlistHOME {
+    display: grid;
+    grid-template: auto/repeat(auto-fill, minmax(max(270px, 25%), 1fr));
+    grid-gap: 16px 24px;
+  }
+  .playlistHOME div:hover span {
+    opacity: 1;
+  }
+  .boxs {
+    display: grid;
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+    grid-gap: 24px;
+  }
+
+  .box:hover div span {
+    opacity: 1;
+  }
+
+  @media screen {
+  }
 }

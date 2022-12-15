@@ -60,16 +60,46 @@ const PlayList = () => {
       </div>
       <div className="ml-6 mr-3 mt-0 flex-auto overflow-auto scrollbar-playListss">
         <ul>
-          {new Array(25).fill(
-            <li>
-              <a
-                href="#"
-                className="font-semibold text-sm flex h-8 text-link hover:text-white items-center "
-              >
-                Zaman Kapsülün
-              </a>
-            </li>
-          )}
+          <li>
+            <a
+              href="/Test"
+              className="font-semibold text-sm flex h-8 text-link hover:text-white items-center "
+            >
+              Zaman Kapsülün
+            </a>
+          </li>
+          <li>
+            <a
+              href="/Test"
+              className="font-semibold text-sm flex h-8 text-link hover:text-white items-center "
+            >
+              Zaman Kapsülün
+            </a>
+          </li>
+          <li>
+            <a
+              href="/Test"
+              className="font-semibold text-sm flex h-8 text-link hover:text-white items-center "
+            >
+              Zaman Kapsülün
+            </a>
+          </li>
+          <li>
+            <a
+              href="/Test"
+              className="font-semibold text-sm flex h-8 text-link hover:text-white items-center "
+            >
+              Zaman Kapsülün
+            </a>
+          </li>
+          <li>
+            <a
+              href="/Test"
+              className="font-semibold text-sm flex h-8 text-link hover:text-white items-center "
+            >
+              Zaman Kapsülün
+            </a>
+          </li>
         </ul>
       </div>
     </div>

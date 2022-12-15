@@ -1,7 +1,7 @@
 import React from "react";
 import Rafbox from "./RafBox";
 
-const kesifList = () => {
+const kesifList = ({ items }) => {
   return (
     <div className="mt-5">
       <div className="head flex justify-between items-center">
@@ -12,7 +12,11 @@ const kesifList = () => {
           TÜMÜNÜ GÖSTER
         </span>
       </div>
-      <div className="boxs ">{new Array(8).fill(<Rafbox />)}</div>
+      <div className="boxs ">
+        {items.map((item, i) => (
+          <Rafbox item={item} key={i} />
+        ))}
+      </div>
     </div>
   );
 };

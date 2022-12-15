@@ -6,7 +6,7 @@ import Searchbar from "./Searchbar";
 const Navigation = () => {
   const navigate = useNavigate();
   return (
-    <div className="flex flex-row gap-4">
+    <div className="flex flex-row gap-4 items-center">
       <button
         onClick={() => {
           navigate(-1);

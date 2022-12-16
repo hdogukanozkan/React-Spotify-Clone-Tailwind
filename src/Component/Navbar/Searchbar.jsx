@@ -3,7 +3,7 @@ import { AiOutlineSearch } from "react-icons/ai";
 
 const Searchbar = () => {
   return (
-    <div className="h-8 px-2 flex items-center justify-center gap-2 w-[364px] bg-white relative rounded-3xl overflow-hidden ">
+    <div className="h-full ml-3 px-2 flex items-center justify-center gap-2 w-[364px] bg-white relative rounded-3xl overflow-hidden ">
       <AiOutlineSearch size={30} className="text-black" />
       <input
         type="text"

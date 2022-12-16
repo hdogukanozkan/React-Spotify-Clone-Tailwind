@@ -2,11 +2,12 @@ import React from "react";
 import { useNavigate, Routes, Route } from "react-router-dom";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 import Searchbar from "./Searchbar";
+import Librarybar from "./Librarybar";
 
 const Navigation = () => {
   const navigate = useNavigate();
   return (
-    <div className="flex flex-row gap-4 items-center">
+    <div className="flex flex-row gap-4 items-center h-[36px]">
       <button
         onClick={() => {
           navigate(-1);
@@ -25,6 +26,7 @@ const Navigation = () => {
       </button>
       <Routes>
         <Route path="/search/" element={<Searchbar />} />
+        <Route path="/library/" element={<Librarybar />} />
       </Routes>
     </div>
   );

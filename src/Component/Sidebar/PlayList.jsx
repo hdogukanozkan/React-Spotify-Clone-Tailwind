@@ -62,7 +62,7 @@ const PlayList = () => {
         <ul>
           <li>
             <a
-              href="/Test"
+              href="#"
               className="font-semibold text-sm flex h-8 text-link hover:text-white items-center "
             >
               Zaman Kapsülün
@@ -70,7 +70,7 @@ const PlayList = () => {
           </li>
           <li>
             <a
-              href="/Test"
+              href="#"
               className="font-semibold text-sm flex h-8 text-link hover:text-white items-center "
             >
               Zaman Kapsülün
@@ -78,7 +78,7 @@ const PlayList = () => {
           </li>
           <li>
             <a
-              href="/Test"
+              href="#"
               className="font-semibold text-sm flex h-8 text-link hover:text-white items-center "
             >
               Zaman Kapsülün
@@ -86,7 +86,7 @@ const PlayList = () => {
           </li>
           <li>
             <a
-              href="/Test"
+              href="#"
               className="font-semibold text-sm flex h-8 text-link hover:text-white items-center "
             >
               Zaman Kapsülün
@@ -94,7 +94,7 @@ const PlayList = () => {
           </li>
           <li>
             <a
-              href="/Test"
+              href="#"
               className="font-semibold text-sm flex h-8 text-link hover:text-white items-center "
             >
               Zaman Kapsülün
